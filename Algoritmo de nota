@@ -1,0 +1,6 @@
+nota = float(input(”Ingrese la nota de Fundamentos de Algoritmo: “))
+if nota >= 12:
+    print(”Aprobado”)
+else:
+    print(”Reprobado”)
+
