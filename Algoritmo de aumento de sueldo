@@ -1,0 +1,6 @@
+
+sueldo = int(input("Ingrese el sueldo del empleado: "))
+aumento = sueldo * 0.25
+nuevo_sueldo = sueldo + aumento
+print("El nuevo sueldo del empleado es:", nuevo_sueldo)
+
