@@ -1,0 +1,4 @@
+x = float(input("Ingrese la cantidad en bolívares: "))
+dolares = x / 450
+print("La cantidad en dólares es:", dolares)
+
