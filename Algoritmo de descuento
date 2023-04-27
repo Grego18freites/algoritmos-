@@ -1,0 +1,11 @@
+valor_compra = float(input(”Ingrese el valor de la compra: “))
+
+if valor_compra > 1000:
+    descuento = valor_compra * 0.2
+else:
+    descuento = valor_compra * 0.05
+
+valor_final = valor_compra - descuento
+
+print(”El valor final de la compra con descuento es:”, valor_final)
+
